@@ -1,7 +1,3 @@
-[build-system]
-requires = ["setuptools>=42", "wheel"]
-build-backend = "setuptools.build_meta"
-
 [project]
 name = "pyloscan"
 version = "1.0.0"
@@ -22,11 +18,3 @@ dependencies = [
     "google-genai>=1.43.0",
     "openai>=2.3.0",
 ]
-
-[tool.setuptools]
-py-modules = []
-
-[tool.setuptools.packages.find]
-where = ["."]
-include = []
-exclude = ["data*", "models*", "attached_assets*"]
