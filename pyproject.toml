@@ -1,5 +1,5 @@
 [project]
-name = "PyloScan"
+name = ""
 version = "1.0.0"
 description = "PyloScan - AI-powered H. Pylori infection prediction system"
 requires-python = ">=3.11"
